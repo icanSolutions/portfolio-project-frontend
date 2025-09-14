@@ -1,0 +1,35 @@
+# Node modules (don’t copy these into the image)
+node_modules
+**/node_modules
+
+# Build outputs
+dist
+build
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE/editor directories
+.vscode
+.idea
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files
+*.tmp
+*.swp
